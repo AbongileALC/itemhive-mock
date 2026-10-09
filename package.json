@@ -1,0 +1,16 @@
+{
+  "name": "itemhive-mock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mock ItemHive API for frontend testing",
+  "main": "mock-server.cjs",
+  "scripts": {
+    "start": "node mock-server.cjs"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
